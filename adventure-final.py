@@ -2,11 +2,6 @@ import random
 name = input("What's your name? ")
 print(f"Hello, {name}! You're on your journey to find the Data Analytics Medal.")
 
-# name = input("What's your name? ")
-# print(f"Hello, {name}! You're on your journey to find the Data Analytics Medal.")
-
-
-# think about how to make this variable include all the rooms the player will go to? 
 rooms = ["Hometown", "Market", "Forest", "Tower", "Lonely Clearing"]
 descriptions = {"Hometown": "Here you\'ll need to answer a question to win 5 coins that you can use later. Good luck!", 
                 "Market": "Here you\'ll need to find the beekeeper and buy honey from him using the 5 coins you won on the previous step. We have a long way to go, so let\'s not stay long here!", 
